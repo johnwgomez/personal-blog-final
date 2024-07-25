@@ -1,18 +1,34 @@
 form {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
-  margin: auto;
+  max-width: 400px;
+  width: 100%;
 }
 
-label, input, textarea, button {
+label,
+input,
+textarea,
+button {
   margin-bottom: 10px;
 }
 
-button {
+input,
+textarea {
   padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
   background-color: black;
   color: white;
   border: none;
+  padding: 10px;
+  cursor: pointer;
   border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e10000;
 }
