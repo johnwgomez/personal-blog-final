@@ -1,0 +1,18 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+
+label, input, textarea, button {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
