@@ -9,13 +9,24 @@ body {
   color: white;
 }
 
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 header,
 footer {
   text-align: center;
   position: relative;
   border: 2px solid black;
   padding: 2px;
-
 }
 
 header h1 {
@@ -28,17 +39,16 @@ header h1 {
   right: 10px;
   top: 10px;
   cursor: pointer;
-  background: none;  
-  border: none;  
+  background: none;
+  border: none;
 }
 
-button {
-  padding: 10px;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+header .header-buttons {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .container {
