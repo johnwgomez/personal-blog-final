@@ -1,14 +1,17 @@
+/* Base styles for the body */
 body {
   font-family: Arial, sans-serif;
   background-color: white;
   color: black;
 }
 
+/* Styles for dark mode | https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp*/
 .dark-mode {
   background-color: black;
   color: white;
 }
 
+/* Styles for the button | https://www.w3schools.com/css/css3_buttons.asp*/
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -21,6 +24,7 @@ body {
   cursor: pointer;
 }
 
+/* Styles for the header and footer */
 header,
 footer {
   text-align: center;
@@ -29,11 +33,13 @@ footer {
   padding: 2px;
 }
 
+/* Specific styles for the header title */
 header h1 {
   display: inline-block;
   border: 0px solid black;
 }
 
+/* Styles for the theme toggle button */
 #theme-toggle {
   position: absolute;
   right: 10px;
@@ -41,8 +47,10 @@ header h1 {
   cursor: pointer;
   background: none;
   border: none;
+  /* Position top right of the header */
 }
 
+/* Styles back button and theme toggle button */
 header .header-buttons {
   position: absolute;
   right: 50px;
@@ -51,14 +59,17 @@ header .header-buttons {
   align-items: center;
 }
 
+/* Container styles */
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100vh;
   padding: 20px;
+  /* Align the content| could not get to take up whole page, containers kept sticking to the content within NEED TO FIX */
 }
 
+/* Styles for the left and right panels */
 .left-panel,
 .right-panel {
   flex: 1;
@@ -68,6 +79,7 @@ header .header-buttons {
   border: 2px solid black;
 }
 
+/* Styles for the circle element |https://www.w3schools.com/howto/howto_css_circles.asp */
 .circle {
   width: 300px;
   height: 300px;

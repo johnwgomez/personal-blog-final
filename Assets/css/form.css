@@ -1,17 +1,22 @@
+/* Styles for the form container */
 form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
   width: 100%;
+  /*  Display the form elements in a column layout. Form doesn't exceed 400px width */
 }
 
+/* Margins for form elements | https://www.w3schools.com/css/tryit.asp?filename=trycss_form_textarea  */
 label,
 input,
 textarea,
 button {
   margin-bottom: 10px;
+  /* Adds space */
 }
 
+/* Styles for input fields and textarea | https://www.w3schools.com/css/tryit.asp?filename=trycss_form_textarea */
 input,
 textarea {
   padding: 10px;
@@ -20,6 +25,7 @@ textarea {
   width: 100%;
 }
 
+/* Styles for the submit button | https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button */
 button {
   background-color: black;
   color: white;
@@ -27,8 +33,11 @@ button {
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
+
 }
 
+/* Hover effect for the submit button | https://www.w3schools.com/howto/howto_css_animate_buttons.asp */
 button:hover {
   background-color: #e10000;
+
 }
